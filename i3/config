@@ -186,7 +186,7 @@ bindsym $mod+m exec ~/.script/mount.sh
 gaps inner 25
 for_window [class="^.*"] border pixel 4
 
-exec --no-startup-id polybar 2b
+
 exec --no-startup-id "/usr/bin/nm-applet"
 exec --no-startup-id "/usr/bin/compton --vsync opengl &"
 exec --no-startup-id setxkbmap "us,ru" ",winkeys" "grp:alt_shift_toggle,grp_led:scroll"
