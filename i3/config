@@ -181,17 +181,14 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 bindsym $mod+q exec ~/.script/time.sh
-bindsym $mod+m exec ~/.script/mount.sh 
 
 gaps inner 25
 for_window [class="^.*"] border pixel 4
 
 
 exec --no-startup-id "/usr/bin/nm-applet"
-exec --no-startup-id "/usr/bin/compton --vsync opengl &"
 exec --no-startup-id setxkbmap "us,ru" ",winkeys" "grp:alt_shift_toggle,grp_led:scroll"
 exec --no-startup-id dunst
-exec --no-startup-id compton 
+exec --no-startup-id picom 
 exec --no-startup-id xrandr --output HDMI-1-1 --auto --right-of eDP-1-1
-exec --no-startup-id wal -i ~/themes/joshua-harris--rkW0aKhOMA-unsplash.jpg
-
+exec --no-startup-id  wal -i BrownLeaves-flipped.jpg
