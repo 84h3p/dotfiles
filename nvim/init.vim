@@ -9,5 +9,4 @@ call plug#begin()
 
 Plug 'https://github.com/morhetz/gruvbox'
 Plug 'https://github.com/vim-airline/vim-airline'
-Plug 'https://github.com/preservim/nerdtree'
 call plug#end()
