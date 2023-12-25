@@ -1,12 +1,9 @@
-:set number
-:set mouse=a
-:set tabstop
-:set autoindent
+set autoindent expandtab tabstop=2 shiftwidth=2
 
-autocmd vimenter * ++nested colorscheme gruvbox
 
 call plug#begin()
 
-Plug 'https://github.com/morhetz/gruvbox'
+Plug 'LunarWatcher/auto-pairs'
 Plug 'https://github.com/vim-airline/vim-airline'
+
 call plug#end()
